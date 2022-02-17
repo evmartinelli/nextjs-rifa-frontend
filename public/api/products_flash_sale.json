@@ -743,13 +743,13 @@
   "productFlashSellGridTwo": [
     {
       "id": 1,
-      "name": "Adidas Shoes Black",
-      "description": "Men Black top sleeveless gown",
+      "name": "★ Butterfly Knife | Rust Coat",
+      "description": "This is a custom-designed balisong, commonly known as a butterfly knife. The defining characteristic of this weapon is the fan-like opening of a freely pivoting blade, allowing rapid deployment or concealment. As a result, butterfly knives are outlawed in many countries. It is still perfectly operational although the exterior surfaces have rusted.\n\n<i>Some people don't need to hide how dirty their deeds are",
       "slug": "adidas-shoes-black",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-26-md.png",
-        "original": "/assets/images/products/p-26-m.png"
+        "thumbnail": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GaqOTgNr7dqWBf4cN0teHE9JrsxgLl_hZvNm-mLYfGJ1NoNV6C_wLvwurthcS6vJnAzycyuyhz5CvcmRGpwUYbcWYJVj0",
+        "original": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GaqOTgNr7dqWBf4cN0teHE9JrsxgLl_hZvNm-mLYfGJ1NoNV6C_wLvwurthcS6vJnAzycyuyhz5CvcmRGpwUYbcWYJVj0"
       },
       "gallery": [
         {
@@ -770,78 +770,95 @@
       "variations": [
       {
         "id": 1,
-        "value": "S",
+        "value": "1",
+        "status": "paid",
         "attribute": {
           "id": 1,
-          "name": "Size",
-          "slug": "size"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 2,
-        "value": "M",
+        "value": "2",
         "attribute": {
           "id": 1,
-          "name": "Size",
-          "slug": "size"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 3,
-        "value": "L",
+        "value": "3",
+        "status": "paid",
         "attribute": {
           "id": 1,
-          "name": "Size",
-          "slug": "size"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 4,
-        "value": "XL",
+        "value": "4",
         "attribute": {
           "id": 1,
-          "name": "Size",
-          "slug": "size"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 5,
-        "value": "Orange",
-        "meta": "#e86c25",
+        "value": "5",
+        "status": "paid",
         "attribute": {
           "id": 1,
-          "name": "Color",
-          "slug": "color"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 6,
-        "value": "Pink",
-        "meta": "#ffa5b4",
+        "value": "6",
         "attribute": {
           "id": 1,
-          "name": "Color",
-          "slug": "color"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 7,
-        "value": "Purple",
-        "meta": "#8224e3",
+        "value": "7",
         "attribute": {
           "id": 1,
-          "name": "Color",
-          "slug": "color"
+          "name": "Numbers",
+          "slug": "numbers"
         }
       },
       {
         "id": 8,
-        "value": "Red",
-        "meta": "#dd3333",
+        "value": "8",
         "attribute": {
           "id": 1,
-          "name": "Color",
-          "slug": "color"
+          "name": "Numbers",
+          "slug": "numbers"
+        }
+      },
+      {
+        "id": 9,
+        "value": "9",
+        "attribute": {
+          "id": 1,
+          "name": "Numbers",
+          "slug": "numbers"
+        }
+      },
+      {
+        "id": 10,
+        "value": "10",
+        "attribute": {
+          "id": 1,
+          "name": "Numbers",
+          "slug": "numbers"
         }
       }
     ]
