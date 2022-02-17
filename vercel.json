@@ -1,10 +1,10 @@
 {
   "env": {
-    "NEXT_PUBLIC_REST_API_ENDPOINT": "http://localhost:3000/api"
+    "NEXT_PUBLIC_REST_API_ENDPOINT": "https://nextjs-rifa-frontend.vercel.app/api"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_REST_API_ENDPOINT": "http://localhost:3000/api"
+      "NEXT_PUBLIC_REST_API_ENDPOINT": "https://nextjs-rifa-frontend.vercel.app/api"
     }
   }
 }
