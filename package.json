@@ -40,7 +40,7 @@
     "react-sticky-box": "^0.9.3",
     "react-tabs": "^3.2.3",
     "react-toastify": "^7.0.4",
-    "react-use": "^17.2.4",
+    "react-use": "^17.3.2",
     "sharp": "^0.30.1",
     "swiper": "^6.8.1"
   },
