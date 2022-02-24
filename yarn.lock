@@ -3268,10 +3268,10 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
-rc-drawer@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.npmjs.org/rc-drawer/-/rc-drawer-4.4.0.tgz"
-  integrity sha512-y0M6+RnZfYrSd0kuezRUKOL+9iTea3h/0eqDT+M2xhEVwCnqesp70efSuRNTW6FHK1vymQdOT7WSYdFt/+lOHw==
+rc-drawer@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/rc-drawer/-/rc-drawer-4.4.3.tgz#2094937a844e55dc9644236a2d9fba79c344e321"
+  integrity sha512-FYztwRs3uXnFOIf1hLvFxIQP9MiZJA+0w+Os8dfDh/90X7z/HqP/Yg+noLCIeHEbKln1Tqelv8ymCAN24zPcfQ==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
