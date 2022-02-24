@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.0",
+    "@fontsource/open-sans": "^4.5.5",
     "@fontsource/satisfy": "^4.5.1",
     "@headlessui/react": "^1.4.0",
     "@reach/portal": "^0.16.2",
