@@ -4,7 +4,6 @@ import isEmpty from "lodash/isEmpty";
 import { ROUTES } from "@utils/routes";
 import { useUI } from "@contexts/ui.context";
 import Button from "@components/ui/button";
-import Counter from "@components/common/counter";
 import { useCart } from "@contexts/cart/cart.context";
 import { ProductAttributes } from "@components/product/product-attributes";
 import { generateCartItem } from "@utils/generate-cart-item";
