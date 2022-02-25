@@ -8,8 +8,6 @@ import SwiperCore, {
   Scrollbar,
 } from 'swiper';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/components/scrollbar/scrollbar.min.css';
 import { getDirection } from '@utils/get-direction';
 import { NavigationOptions } from 'swiper/types';
 
