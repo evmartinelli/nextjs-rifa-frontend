@@ -3,7 +3,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInOut } from "@utils/motion/fade-in-out";
 import { IoIosCloseCircle } from "react-icons/io";
-import Counter from "@components/common/counter";
 import { useCart } from "@contexts/cart/cart.context";
 import usePrice from "@framework/product/use-price";
 import { ROUTES } from "@utils/routes";
@@ -16,11 +15,7 @@ type CartItemProps = {
 
 const CartItem: React.FC<CartItemProps> = ({ item }) => {
 	const { t } = useTranslation("common");
-	const { addItemToCart, removeItemFromCart, clearItemFromCart } = useCart();
-	const { price } = usePrice({
-		amount: item.price,
-		currencyCode: "USD",
-	});
+	const { clearItemFromCart } = useCart();
 	const { price: totalPrice } = usePrice({
 		amount: item.itemTotal,
 		currencyCode: "USD",
