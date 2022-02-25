@@ -1,5 +1,4 @@
 import cn from "classnames";
-import { stat } from "fs/promises";
 interface Props {
 	className?: string;
 	title: string;
