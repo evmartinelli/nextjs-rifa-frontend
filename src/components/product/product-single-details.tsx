@@ -63,7 +63,6 @@ const ProductSingleDetails: React.FC = () => {
 		const item = generateCartItem(data!, attributes);
 		addItemToCart(item, quantity);
 		toast("Added to the bag", {
-			type: "dark",
 			progressClassName: "fancy-progress-bar",
 			position: width > 768 ? "bottom-right" : "top-right",
 			autoClose: 2000,

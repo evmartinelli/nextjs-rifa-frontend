@@ -20,7 +20,7 @@ export default function ProductPopup() {
 	} = useUI();
 	const router = useRouter();
 	const { addItemToCart } = useCart();
-	const [quantity, setQuantity] = useState(1);
+	const quantity= 1;
 	const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
 	const [viewCartBtn, setViewCartBtn] = useState<boolean>(false);
 	const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
