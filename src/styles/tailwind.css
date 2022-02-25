@@ -219,6 +219,20 @@
 		transform: translateX(16px);
 	}
 
+	.strikethrough-diagonal {
+		position: relative;
+	}
+
+	.strikethrough-diagonal:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		right: 0;
+		border-top: 1px solid;
+		border-color: black;
+		transform: skewY(-45deg);
+	}
+
 	/* Rounded sliders */
 	.slider.round {
 		border-radius: 20px;

@@ -781,6 +781,7 @@
       {
         "id": 2,
         "value": "2",
+        "status": "pending",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -800,6 +801,7 @@
       {
         "id": 4,
         "value": "4",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -819,6 +821,7 @@
       {
         "id": 6,
         "value": "6",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -828,6 +831,7 @@
       {
         "id": 7,
         "value": "7",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -837,6 +841,7 @@
       {
         "id": 8,
         "value": "8",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -846,6 +851,7 @@
       {
         "id": 9,
         "value": "9",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",
@@ -855,6 +861,7 @@
       {
         "id": 10,
         "value": "10",
+        "status": "available",
         "attribute": {
           "id": 1,
           "name": "Numbers",

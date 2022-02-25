@@ -1,4 +1,5 @@
 import cn from "classnames";
+import { stat } from "fs/promises";
 interface Props {
 	className?: string;
 	title: string;
@@ -29,13 +30,17 @@ export const ProductAttributes: React.FC<Props> = ({
 					<li
 						key={`${value}-${id}`}
 						className={cn(
-							"cursor-pointer rounded border border-gray-100 w-9 md:w-11 h-9 md:h-11 p-1 mb-2 md:mb-3 me-2 md:me-3 flex justify-center items-center text-heading text-xs md:text-sm uppercase font-semibold transition duration-200 ease-in-out hover:border-black",
+							"cursor-pointer rounded border border-gray-100 w-9 md:w-11 h-9 md:h-11 p-1 mb-2 md:mb-3 me-2 md:me-3 flex justify-center items-center text-heading text-xs md:text-sm uppercase font-semibold transition duration-200 ease-in-out",
 							{
 								"border-black": value === active,
-								"bg-green-300": status === "paid",
+								"bg-green-200 strikethrough-diagonal": status === "paid",
+								"bg-yellow-200": status === "pending",
 							}
 						)}
-						onClick={() => onClick({ [title]: value })}
+						onClick={() => onClick({ 
+							[title]: value,
+							status
+						 })}
 					>					
 						{title === "color" ? (
 							<span

@@ -61,10 +61,12 @@ export default function ProductPopup() {
 	}
 
 	function handleAttribute(attribute: any) {
-		setAttributes((prev) => ({
+		if(attribute.status === "available"){
+			setAttributes((prev) => ({
 			...prev,
-			...attribute,
-		}));
+			...attribute
+			}));			
+		}
 	}
 
 	function navigateToCartPage() {
@@ -128,15 +130,15 @@ export default function ProductPopup() {
 					})}
 
 					<div className="pt-2 md:pt-4">
-						<div className="flex items-center justify-between mb-4 space-s-3 sm:space-s-4">
-							<Counter
-								quantity={quantity}
-								onIncrement={() => setQuantity((prev) => prev + 1)}
-								onDecrement={() =>
-									setQuantity((prev) => (prev !== 1 ? prev - 1 : 1))
-								}
-								disableDecrement={quantity === 1}
-							/>
+						{viewCartBtn && (
+							<button
+								onClick={navigateToCartPage}
+								className="w-full mb-4 h-11 md:h-12 rounded bg-gray-100 text-heading focus:outline-none border border-gray-300 transition-colors hover:bg-gray-50 focus:bg-gray-50"
+							>
+								{t("text-view-cart")}
+							</button>
+						)}
+						<div className="flex items-center justify-between mb-4 space-s-3 sm:space-s-4">							
 							<Button
 								onClick={addToCart}
 								variant="flat"
@@ -149,23 +151,6 @@ export default function ProductPopup() {
 								{t("text-add-to-cart")}
 							</Button>
 						</div>
-
-						{viewCartBtn && (
-							<button
-								onClick={navigateToCartPage}
-								className="w-full mb-4 h-11 md:h-12 rounded bg-gray-100 text-heading focus:outline-none border border-gray-300 transition-colors hover:bg-gray-50 focus:bg-gray-50"
-							>
-								{t("text-view-cart")}
-							</button>
-						)}
-
-						<Button
-							onClick={navigateToProductPage}
-							variant="flat"
-							className="w-full h-11 md:h-12"
-						>
-							{t("text-view-details")}
-						</Button>
 					</div>
 				</div>
 			</div>

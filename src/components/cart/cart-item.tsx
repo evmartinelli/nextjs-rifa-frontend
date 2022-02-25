@@ -59,20 +59,13 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
 					href={`${ROUTES.PRODUCT}/${item?.slug}`}
 					className="truncate text-sm text-heading mb-1.5 -mt-1"
 				>
-					{generateCartItemName(item.name, item.attributes)}
+					{generateCartItemName(item.name, Object)}
 				</Link>
 				<span className="text-sm text-gray-400 mb-2.5">
-					{t("text-unit-price")} : &nbsp;
-					{price}
-				</span>
-
-				<div className="flex items-end justify-between">
-					<Counter
-						quantity={item.quantity}
-						onIncrement={() => addItemToCart(item, 1)}
-						onDecrement={() => removeItemFromCart(item.id)}
-						variant="dark"
-					/>
+					{t("text-number-purchase")} : &nbsp;
+					{item.attributes.numbers}
+				</span>				
+				<div className="flex justify-end">					
 					<span className="font-semibold text-sm md:text-base text-heading leading-5">
 						{totalPrice}
 					</span>
