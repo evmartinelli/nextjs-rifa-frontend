@@ -22,7 +22,7 @@
     "lodash": "^4.17.21",
     "next": "^12.1.0",
     "next-i18next": "^10.4.0",
-    "next-pwa": "5.4.4",
+    "next-pwa": "5.4.6",
     "next-seo": "^5.1.0",
     "overlayscrollbars": "^1.13.1",
     "overlayscrollbars-react": "^0.2.3",
