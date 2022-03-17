@@ -87,7 +87,7 @@ const CategoryBlock: React.FC<CategoriesProps> = ({
           breakpoints={type === 'rounded' ? breakpoints : breakpointsCircle}
           buttonClassName="-mt-8 md:-mt-10"
         >
-          {isLoading && !data
+          {isLoading
             ? Array.from({ length: 10 }).map((_, idx) => {
                 if (type === 'rounded') {
                   return (
