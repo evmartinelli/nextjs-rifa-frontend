@@ -58,7 +58,7 @@ const CategoryBlockIcon: React.FC<CategoriesProps> = ({
           breakpoints={breakpoints}
           buttonClassName="-mt-2 md:-mt-2"
         >
-          {isLoading && !data
+          {isLoading
             ? Array.from({ length: 10 }).map((_, idx) => {
                 return (
                   <SwiperSlide key={`card-rounded-${idx}`}>

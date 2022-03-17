@@ -55,7 +55,7 @@ const BrandBlock: React.FC<BrandProps> = ({
 				<Alert message={error?.message} />
 			) : (
 				<Carousel breakpoints={breakpoints} buttonClassName="-mt-8 md:-mt-12">
-					{isLoading && !data
+					{isLoading
 						? Array.from({ length: 10 }).map((_, idx) => (
 								<SwiperSlide key={idx}>
 									<CardRoundedLoader uniqueKey={`category-${idx}`} />

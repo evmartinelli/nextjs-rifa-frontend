@@ -27,7 +27,7 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = "" }) => {
 			<div
 				className={`grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-3 lg:gap-x-5 xl:gap-x-7 gap-y-3 xl:gap-y-5 2xl:gap-y-8 ${className}`}
 			>
-				{isLoading && !data?.pages?.length ? (
+				{isLoading ? (
 					<ProductFeedLoader limit={20} uniqueKey="search-product" />
 				) : (
 					data?.pages?.map((page) => {
