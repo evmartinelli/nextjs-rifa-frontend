@@ -11,6 +11,7 @@ import { ToastContainer } from "react-toastify";
 // import { ReactQueryDevtools } from "react-query/devtools";
 import { appWithTranslation } from "next-i18next";
 import { DefaultSeo } from "@components/common/default-seo";
+import { hotjar } from 'react-hotjar'
 
 // Load Open Sans and satisfy typeface font
 import "@fontsource/open-sans";
@@ -44,6 +45,9 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
 	useEffect(() => {
 		document.documentElement.dir = dir;
 	}, [dir]);
+	useEffect(() => {
+  hotjar.initialize(2881359, 6)
+}, [])
 	const Layout = (Component as any).Layout || Noop;
 
 	return (
