@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import Button from "@components/ui/button";
 import Counter from "@components/common/counter";
 import { useRouter } from "next/router";
@@ -95,7 +96,7 @@ const ProductSingleDetails: React.FC = () => {
 					{data?.gallery?.map((item, index: number) => (
 						<SwiperSlide key={`product-gallery-key-${index}`}>
 							<div className="col-span-1 transition duration-150 ease-in hover:opacity-90">
-								<img
+								<Image
 									src={
 										item?.original ??
 										"/assets/placeholder/products/product-gallery.svg"
@@ -114,7 +115,7 @@ const ProductSingleDetails: React.FC = () => {
 							key={index}
 							className="col-span-1 transition duration-150 ease-in hover:opacity-90"
 						>
-							<img
+							<Image
 								src={
 									item?.original ??
 									"/assets/placeholder/products/product-gallery.svg"

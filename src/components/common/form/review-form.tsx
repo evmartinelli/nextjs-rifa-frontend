@@ -3,7 +3,7 @@ import Button from "@components/ui/button";
 import { useForm } from "react-hook-form";
 import TextArea from "@components/ui/text-area";
 import ReactStars from "react-rating-stars-component";
-import { CheckBox } from "@components/ui/checkbox";
+import CheckBox from "@components/ui/checkbox";
 import { useTranslation } from "next-i18next";
 
 interface ReviewFormValues {

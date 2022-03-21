@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import isEmpty from "lodash/isEmpty";
 import { ROUTES } from "@utils/routes";
@@ -79,7 +80,7 @@ export default function ProductPopup() {
 		<div className="rounded-lg bg-white">
 			<div className="flex flex-col lg:flex-row w-full md:w-[650px] lg:w-[960px] mx-auto overflow-hidden">
 				<div className="flex-shrink-0 flex items-center justify-center w-full lg:w-430px max-h-430px lg:max-h-full overflow-hidden bg-gray-300">
-					<img
+					<Image
 						src={
 							image?.original ??
 							"/assets/placeholder/products/product-thumbnail.svg"

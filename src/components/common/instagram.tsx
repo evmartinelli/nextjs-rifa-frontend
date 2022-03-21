@@ -59,6 +59,7 @@ const Instagram: React.FC<Props> = ({ className = "" }) => {
 					href={item.slug}
 					key={`instagram--key${item.id}`}
 					target="_blank"
+					rel="noreferrer"
 				>
 					<Image
 						src={item.image ?? "/assets/placeholder/instagram.svg"}
