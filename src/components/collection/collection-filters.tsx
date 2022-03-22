@@ -10,11 +10,11 @@ export const CollectionFilters: React.FC = () => {
 	const { data, isLoading } = useCollectionsQuery({
 		limit: 15,
 	});
-	if (isLoading) return <p>Loading...</p>;
 	const router = useRouter();
 	const currentPath = router.asPath.split("/").slice(2, 3).join();
-
-	const items = data?.collections.data;
+  const items = data?.collections.data;
+	
+	if (isLoading) return <p>Loading...</p>;
 	return (
 		<div className="pt-1">
 			<div className="block border-b border-gray-300 pb-5 mb-7">

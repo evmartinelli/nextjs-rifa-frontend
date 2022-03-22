@@ -2,7 +2,7 @@ import Input from "@components/ui/input";
 import { useForm } from "react-hook-form";
 import TextArea from "@components/ui/text-area";
 import { useCheckoutMutation } from "@framework/checkout/use-checkout";
-import { CheckBox } from "@components/ui/checkbox";
+import CheckBox from "@components/ui/checkbox";
 import Button from "@components/ui/button";
 import Router from "next/router";
 import { ROUTES } from "@utils/routes";

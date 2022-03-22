@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Text from '@components/ui/text';
 import StarIcon from '@components/icons/star-icon';
 import QuoteIcon from '@components/icons/quote-icon';
@@ -10,7 +11,7 @@ const TestimonialCard: React.FC<Props> = ({ item }) => {
   return (
     <div className="bg-gray-200 rounded-md p-8 sm:p-6 md:p-8 transition duration-300 ease-in-out w-[92%] md:w-[96.5%] lg:w-full mx-auto md:mx-0">
       <div className="w-[90px]">
-        <img
+        <Image
           src={item.avatar.src}
           alt={item.name}
           className="rounded-full border-[5px] border-white shadow-avatar"
