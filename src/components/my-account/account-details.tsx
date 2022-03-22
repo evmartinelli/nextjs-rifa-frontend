@@ -7,7 +7,7 @@ import {
 	useUpdateUserMutation,
 	UpdateUserType,
 } from "@framework/customer/use-update-customer";
-import { RadioBox } from "@components/ui/radiobox";
+import RadioBox from "@components/ui/radiobox";
 import { useTranslation } from "next-i18next";
 
 const defaultValues = {};

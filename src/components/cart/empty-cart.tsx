@@ -189,8 +189,8 @@ const EmptyCart: FC<EmptyCartProps> = ({
 								transform="translate(6.528 48.598)"
 								fill="#212121"
 								stroke="rgba(0,0,0,0)"
-								stroke-miterlimit="10"
-								stroke-width="1"
+								strokeMiterlimit="10"
+								strokeWidth="1"
 								opacity="0.3"
 							/>
 							<path
@@ -200,8 +200,8 @@ const EmptyCart: FC<EmptyCartProps> = ({
 								transform="translate(94.294 121.132)"
 								fill="#212121"
 								stroke="rgba(0,0,0,0)"
-								stroke-miterlimit="10"
-								stroke-width="1"
+								strokeMiterlimit="10"
+								strokeWidth="1"
 								opacity="0.3"
 							/>
 							<path
@@ -211,8 +211,8 @@ const EmptyCart: FC<EmptyCartProps> = ({
 								transform="translate(107.351 6.528)"
 								fill="#212121"
 								stroke="rgba(0,0,0,0)"
-								stroke-miterlimit="10"
-								stroke-width="1"
+								strokeMiterlimit="10"
+								strokeWidth="1"
 								opacity="0.3"
 							/>
 						</g>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "@components/ui/link";
 import Text from "@components/ui/text";
 import { FaLink } from "react-icons/fa";
@@ -19,7 +20,7 @@ const IconCard: React.FC<Props> = ({ item, effectActive = false, href }) => {
 			className="group flex justify-center text-center flex-col bg-gray-200 h-28 sm:h-[8.5rem] md:h-40 xl:h-[11.5rem] 2xl:h-44 3xl:h-60 rounded-lg"
 		>
 			<div className="relative inline-flex items-center mb-3.5 md:mb-4 lg:mb-5 xl:mb-2 2xl:mb-6 3xl:mb-8 mx-auto :h-24">
-				<img
+				<Image
 					src={icon}
 					alt={name || t("text-card-thumbnail")}
 					className="mx-auto w-2/4 sm:w-2/3 md:w-8/12 3xl:w-full mb-4 sm:mb-6"

@@ -4,7 +4,7 @@ interface CheckBoxProps extends React.InputHTMLAttributes<HTMLInputElement> {
 	labelKey?: string;
 	label?: string | any;
 }
-export const CheckBox = React.forwardRef<HTMLInputElement, CheckBoxProps>(
+const CheckBox = React.forwardRef<HTMLInputElement, CheckBoxProps>(
 	({ labelKey, label, ...rest }, ref) => {
 		const { t } = useTranslation();
 		return (
@@ -20,3 +20,7 @@ export const CheckBox = React.forwardRef<HTMLInputElement, CheckBoxProps>(
 		);
 	}
 );
+
+CheckBox.displayName = "CheckBox"
+
+export default CheckBox

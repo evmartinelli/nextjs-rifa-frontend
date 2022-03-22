@@ -1,5 +1,5 @@
 import { useCategoriesQuery } from "@framework/category/get-all-categories";
-import { CheckBox } from "@components/ui/checkbox";
+import CheckBox from "@components/ui/checkbox";
 import { useRouter } from "next/router";
 import React from "react";
 import { useTranslation } from "next-i18next";

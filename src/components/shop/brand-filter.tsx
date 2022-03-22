@@ -1,4 +1,4 @@
-import { CheckBox } from "@components/ui/checkbox";
+import CheckBox from "@components/ui/checkbox";
 import { useBrandsQuery } from "@framework/brand/get-all-brands";
 import { useRouter } from "next/router";
 import React from "react";
