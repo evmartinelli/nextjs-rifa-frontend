@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.6",
-    "@fontsource/satisfy": "^4.5.1",
+    "@fontsource/satisfy": "^4.5.3",
     "@headlessui/react": "^1.5.0",
     "@reach/portal": "^0.16.2",
     "@tailwindcss/forms": "^0.5.0",
