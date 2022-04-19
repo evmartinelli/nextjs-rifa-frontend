@@ -1183,12 +1183,12 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-tabs@^2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@types/react-tabs/-/react-tabs-2.3.4.tgz#b63662ee52e59a86ec33b78b9721d8163a46394c"
-  integrity sha512-HQzhKW+RF/7h14APw/2cu4Nnt+GmsTvfBKbFdn/NbYpb8Q+iB65wIkPHz4VRKDxWtOpNFpOUtzt5r0LRmQMfOA==
+"@types/react-tabs@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@types/react-tabs/-/react-tabs-5.0.5.tgz#f50a9527adbaf8d146da7f787d1fbdfeff31dd56"
+  integrity sha512-3CZTmjR7nNrZnYbnxp/DtK5e82mhM22dN47aYObmYLcp9fC1XjIEF0mLzGKFl1fR6/R8X7DyGh9hO6lON6LVkQ==
   dependencies:
-    "@types/react" "*"
+    react-tabs "*"
 
 "@types/react@*", "@types/react@^17.0.41":
   version "17.0.41"
@@ -3516,6 +3516,14 @@ react-sticky-box@^1.0.1:
   integrity sha512-CmxcLnMLXvNgslf70SXAduh/4Be8xiB6znW4aUCWv8qNbZjDlFjC5WptbyiKT6465AYuNCg6NGapWlyoN/o7Ew==
   dependencies:
     resize-observer-polyfill "^1.5.1"
+
+react-tabs@*:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/react-tabs/-/react-tabs-5.1.0.tgz#5ef8fad015c71c23b0fff65bd9b3bd419219c27b"
+  integrity sha512-jsPVEPuhG7JljTo8Q4ujz4UKRpG90nHlDClAdvV5KrLxCHU+MT/kg7dmhq8fDv8+frciDtaYeFFlTVRLm4N5AQ==
+  dependencies:
+    clsx "^1.1.0"
+    prop-types "^15.5.0"
 
 react-tabs@^4.0.1:
   version "4.0.1"
