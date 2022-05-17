@@ -3524,10 +3524,10 @@ react-scroll@^1.8.6:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
-react-sticky-box@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-sticky-box/-/react-sticky-box-1.0.1.tgz#9fb3fd3485985d28df60e7fb48f03a1000804cbd"
-  integrity sha512-CmxcLnMLXvNgslf70SXAduh/4Be8xiB6znW4aUCWv8qNbZjDlFjC5WptbyiKT6465AYuNCg6NGapWlyoN/o7Ew==
+react-sticky-box@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-sticky-box/-/react-sticky-box-1.0.2.tgz#7e72a0f237bdf8270cec9254337f49519a411174"
+  integrity sha512-Kyvtppdtv1KqJyNU4DtrSMI0unyQRgtraZvVQ0GAazVbYiTsIVpyhpr+5R0Aavzu4uJNSe1awj2rk/qI7i6Zfw==
   dependencies:
     resize-observer-polyfill "^1.5.1"
 
