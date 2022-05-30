@@ -42,7 +42,7 @@
     "react-tabs": "^4.0.1",
     "react-toastify": "^9.0.1",
     "react-use": "^17.3.2",
-    "sharp": "^0.30.4",
+    "sharp": "^0.30.6",
     "swiper": "^8.1.5"
   },
   "devDependencies": {
