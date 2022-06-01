@@ -3145,10 +3145,10 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-overlayscrollbars-react@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/overlayscrollbars-react/-/overlayscrollbars-react-0.2.3.tgz"
-  integrity sha512-eN/JsEtJvPulOXOZXIdo1H90eriUWcgj4TwSdOcchk2M4uY2/BpsHlZ2+0viZMLXTcNQNJz+/4m47NugSBg+0g==
+overlayscrollbars-react@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/overlayscrollbars-react/-/overlayscrollbars-react-0.3.0.tgz#6d18e741897131643aa8afbc7fed735fbd106c9c"
+  integrity sha512-dV74p9VL/aImqJpeYz0vmpScZYu6UiNTmRKfyI4CS0OYUpYCUiTd723adY38Grz2W57hoNCECWDzkOJRFDQeZg==
 
 overlayscrollbars@^1.13.1:
   version "1.13.1"
