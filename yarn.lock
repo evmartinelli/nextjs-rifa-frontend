@@ -929,10 +929,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.10.tgz#c4269c54d6f5f8661322facb5946d8188fadc7f2"
   integrity sha512-MrtTDfWb1Tu9YxVh2KaKmsKBn6O3KL/lHZS0KRKK58jgqvdwuiDt4QW4udmW4FQf0XOWgnZ+4vKUF80F3SqBAA==
 
-"@fontsource/satisfy@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/satisfy/-/satisfy-4.5.5.tgz#19c89066d6a3ab4274c7182ab5b5147d0b2e34cc"
-  integrity sha512-cORyj403wOBDBeJPcx+H2XtiCamqWB7rYuv4/iD8hjImCZ9MU/EqEme8BdAz+AGxkxWFDlLNMuVOIlSG6apPtg==
+"@fontsource/satisfy@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/satisfy/-/satisfy-4.5.6.tgz#dee0e5289a07089d9428ded22b920a9f0001c295"
+  integrity sha512-EbEvcgCAuG7xKzhpI4HV04flTrW/aWXNSH9v3Pje3WbGRFj+4Ky64DbTiMbKpjolpErrQAl3SmXeqq6YvD640w==
 
 "@headlessui/react@^1.6.6":
   version "1.6.6"
