@@ -3436,10 +3436,10 @@ react-hook-form@^7.33.1:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.33.1.tgz#8c4410e3420788d3b804d62cc4c142915c2e46d0"
   integrity sha512-ydTfTxEJdvgjCZBj5DDXRc58oTEfnFupEwwTAQ9FSKzykEJkX+3CiAkGtAMiZG7IPWHuzgT6AOBfogiKhUvKgg==
 
-react-hotjar@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/react-hotjar/-/react-hotjar-5.0.0.tgz#72beaa2e0067b407c4183dc3ace5020f68959cab"
-  integrity sha512-nEKDm+O5a77C9DlheuA9tz5rwhRjeIFPLhdvynGFxEYTT1qrYC3NU12Z9/tgvN2l9Tzyn7erUQ0C8fZHZBceTw==
+react-hotjar@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/react-hotjar/-/react-hotjar-5.1.0.tgz#4fd787c7a3c6ad1cc82ba749b2af46585fc03158"
+  integrity sha512-H0MORa+uIY1pgLoVOVJRT73UtfwatNtzbAsgvCK6P/97Hc56pPJEcfLEMUHLl9NCRaHtmeP2n7Nad8cZyCtH3A==
 
 react-i18next@^11.18.0:
   version "11.18.1"
