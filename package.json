@@ -15,7 +15,7 @@
     "@headlessui/react": "^1.6.6",
     "@reach/portal": "^0.17.0",
     "@tailwindcss/forms": "^0.5.2",
-    "axios": "^0.27.2",
+    "axios": "^1.2.6",
     "body-scroll-lock": "^4.0.0-beta.0",
     "classnames": "^2.3.1",
     "framer-motion": "^6.5.0",
